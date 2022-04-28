@@ -1,0 +1,128 @@
+body{
+	background-color: black;
+	color: white;
+}
+h1{
+	text-align: center;
+}
+.ulaside li{
+	display:block;
+}
+.list{
+	width: 5%;
+}
+li{
+	margin: 1em;
+}
+header{
+	background-color: white;
+	padding: 1em;
+	border-radius: 1em;
+}
+aside{
+	padding:1em;
+	margin-right: 1em;
+	background-color: #191919;
+	width: 20%;
+}
+article{
+	width: 75%;
+}
+aside,article{
+	display: inline-block;	
+	vertical-align: top;
+}
+section{
+	display: inline-block;
+	vertical-align: top;
+	width: 40%;
+	font-size: 1em;
+	margin-bottom: 1em;
+}
+section:hover, section:focus{
+	background-color: #191919;
+}
+.titulo{
+	color: #1ED760;
+}
+a{
+	color: white;
+}
+.modificar{
+	width:50px;
+}
+.borrar{
+	width: 50px;
+}
+.icono{
+	width: 90%;
+	margin-top: 2em;
+}
+.portada{
+	width: 200px;
+	float: center;
+	margin-bottom: 2em;
+}
+.nuevacancion{
+	vertical-align: center;
+}
+.cancion{
+	width: 15%;
+}
+.audio{
+	margin: -1em;
+}
+.legendform{
+	margin-top: 1em;
+}
+.configura{
+	font-size: 2em;
+}
+@media screen and (max-width: 1920px) {
+	.portada{
+	width: 200px;
+	float: right;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.portada{
+	width: 200px;
+	float: right;
+	}
+}
+@media screen and (max-width: 768px) {
+	.portada{
+	width: 50px;
+	float: right;
+	}
+	section{
+		font-size: 0.5em;
+	}
+		aside{
+		font-size: 0.5em;
+	}
+	.modificar{
+	width:18px;
+	}
+	.borrar{
+		width: 18px;
+	}
+}
+@media screen and (max-width: 480px) {
+	.portada{
+	width: 50px;
+	float: right;
+	}
+	section{
+		font-size: 0.2em;
+	}
+		aside{
+		font-size: 0.5em;
+	}
+	.modificar{
+	width:18px;
+	}
+	.borrar{
+		width: 18px;
+	}
+}

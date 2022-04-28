@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="Gabriel Salcedo">
+	<link rel="stylesheet" type="text/css" href="../css/sincuenta.css">
+	<title>Nueva Cancion</title>
+</head>
+<body>
+	<h2>Nueva Canción</h2>
+	<form action="nueva.php" enctype="multipart/form-data" method="post">
+		<fieldset>
+		<label for="nombre">Nombre: </label>
+		<input type="text" class="input" id="nombre" name="nombre" placeholder="Nombre de Canción"><br>
+		<label for="artista">Artista: </label>
+		<input type="text" class="input"name="artista" id="artista" placeholder="Artista"><br>
+		<label for="genero">Genero: </label>
+		<input type="text" class="input" id="genero" name="genero" placeholder="Género"><br>
+		<label for="fecha">Año: </label>
+		<input type="text" class="input"name="fecha" placeholder="Año de Publicaión" id="fecha"><br>
+		<label for="pista">Pista: </label>
+		<input id="pista" class="boton"name="pista" type="file"><br>
+		<label for="portada">Portada: </label>
+		<input id="portada" class="boton" name="portada" type="file" ><br>
+		<input type="submit" value="Guardar" class="boton">
+	</fieldset>
+	</form>

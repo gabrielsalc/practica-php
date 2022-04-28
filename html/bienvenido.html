@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="author" content="gabriel salcedo">
+	<title>Inicio de Sesión</title>
+	<link rel="stylesheet" type="text/css" href="../css/login.css">
+</head>
+<body>
+	<article>
+		<br>
+		<h1>Bienvenido a Spotify</h1>
+		<br>
+		Spotify es un servicio Premium de streaming de música, puedes acceder a millones de canciones de millones de artista con unos cuantos clicks.
+		<br>
+		Por Favor ingrese su nombre de usuario y contraseña para continuar:
+		<br>
+		<form action="principal.php" method="post">
+			<label for="usuario"><b>Usuario:</b></label>
+			<input type="text" name="usuario" placeholder="usuario" class="entre"><br>
+			<label for="contra"><b>Contraseña:</b></label>
+			<input type="password" name="contraseña" placeholder="password" class="contra"><br>
+			<input type="submit" value="Entrar" class="boton">
+		</form>
+		<br>
+		¿No tienes cuenta? No te preocupes, haz click <a href="../php/sincuenta.php">aqui</a> para crearte una.
+	</article>
+	<aside>
+		<img src="../img/fondo.jpg" tag="fondo con logotipo de spotify" alt="fondo con logotipo de spotify" class="fondo">
+	</aside>
+	</body>

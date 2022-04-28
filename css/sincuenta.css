@@ -1,0 +1,28 @@
+body{
+	background-color: #1ED760;
+}
+section{
+	text-align: center;
+}
+fieldset{
+	width:50%;
+	padding-right: 10em;
+	border: solid 0.3em;
+	border-radius: 1em;
+	text-align: right;
+	font-size: 2em;
+}
+.input{
+	margin-bottom: 0.5em;
+	padding: 1em;
+}
+.boton{
+	border: 0em white;
+	background-color: white;
+	width:50%;
+	padding: 1em;
+	margin-bottom: 0.5em;
+}
+.boton:hover,.boton:focus{
+	background-color: darkgreen;
+}
